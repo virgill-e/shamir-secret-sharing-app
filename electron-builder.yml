@@ -1,5 +1,5 @@
 appId: com.electron.app
-productName: shamir-secret-sharing-app
+productName: shamir-secret-sharing
 directories:
   buildResources: build
 files:
@@ -12,7 +12,7 @@ files:
 asarUnpack:
   - resources/**
 win:
-  executableName: shamir-secret-sharing-app
+  executableName: shamir-secret-sharing
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}

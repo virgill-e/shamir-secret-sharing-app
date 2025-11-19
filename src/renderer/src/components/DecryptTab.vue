@@ -93,7 +93,7 @@ const copySecret = async (): Promise<void> => {
         </div>
 
         <!-- Dynamic share inputs -->
-        <div v-for="(share, index) in shares" :key="index" class="relative">
+        <div v-for="(_, index) in shares" :key="index" class="relative">
           <div class="flex items-start gap-2">
             <div class="flex-1">
               <label class="block text-sm font-medium text-slate-700 mb-2">

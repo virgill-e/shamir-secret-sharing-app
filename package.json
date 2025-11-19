@@ -1,5 +1,5 @@
 {
-  "name": "shamir-secret-sharing-app",
+  "name": "shamir-secret-sharing",
   "version": "1.0.0",
   "description": "An Electron application with Vue and TypeScript",
   "main": "./out/main/index.js",
